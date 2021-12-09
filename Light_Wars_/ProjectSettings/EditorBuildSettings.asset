@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Packages/NeonSphere - Starter Pack/Scenes/NeonScene.unity
+    guid: a4c251521ce2ec2499d5db4fd55c1c9f
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 986974103b670b349bf0a6f0aa2654b5
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 985f95de26c21504cbb57581dd44b879
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 298ccd0e679043a4f897a42f7097a361,
+      type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 71a41b4aca6a65e41a2f66fbf605c905,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 208f2aefe61d45048bfa2dbf19dcf370,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f2ef0f6f4194c8b47afcbb887a68ee28,
+      type: 2}
