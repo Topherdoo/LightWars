@@ -6,7 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ContinuousMovement : MonoBehaviour
 {
-    float speed = 5;
+    public float speed = 5;
     public XRNode inputSource;
     public float gravity = -9.81f;
     public LayerMask groundLayer;
