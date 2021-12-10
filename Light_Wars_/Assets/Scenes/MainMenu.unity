@@ -123,18 +123,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &126351169 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1812935239190456816, guid: 97fa082e154635247adade2cdde6bd7b,
+--- !u!20 &210400105 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 7817723128356013348, guid: 97fa082e154635247adade2cdde6bd7b,
     type: 3}
-  m_PrefabInstance: {fileID: 1359510859}
+  m_PrefabInstance: {fileID: 1164740821}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &376053007
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,33 +473,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc7657115c1ce94989cc28889262087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1359510859
+--- !u!1001 &1164740821
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7817723126839644305, guid: 97fa082e154635247adade2cdde6bd7b,
-        type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 126351169}
-    - target: {fileID: 7817723126890626910, guid: 97fa082e154635247adade2cdde6bd7b,
-        type: 3}
-      propertyPath: m_InteractionLayerMask.m_Bits
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 7817723127078463974, guid: 97fa082e154635247adade2cdde6bd7b,
-        type: 3}
-      propertyPath: m_InteractionLayerMask.m_Bits
-      value: 32
-      objectReference: {fileID: 0}
-    - target: {fileID: 7817723127740783877, guid: 97fa082e154635247adade2cdde6bd7b,
-        type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 126351169}
     - target: {fileID: 7817723128424149579, guid: 97fa082e154635247adade2cdde6bd7b,
         type: 3}
       propertyPath: m_Name
@@ -519,7 +493,7 @@ PrefabInstance:
     - target: {fileID: 7817723128424149581, guid: 97fa082e154635247adade2cdde6bd7b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 95.88401
+      value: 95.81243
       objectReference: {fileID: 0}
     - target: {fileID: 7817723128424149581, guid: 97fa082e154635247adade2cdde6bd7b,
         type: 3}
@@ -529,7 +503,7 @@ PrefabInstance:
     - target: {fileID: 7817723128424149581, guid: 97fa082e154635247adade2cdde6bd7b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 97.2538
+      value: 96.2416
       objectReference: {fileID: 0}
     - target: {fileID: 7817723128424149581, guid: 97fa082e154635247adade2cdde6bd7b,
         type: 3}
@@ -568,12 +542,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97fa082e154635247adade2cdde6bd7b, type: 3}
---- !u!20 &1359510860 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 7817723128356013348, guid: 97fa082e154635247adade2cdde6bd7b,
-    type: 3}
-  m_PrefabInstance: {fileID: 1359510859}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1571790259
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,7 +1129,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 1359510860}
+  m_Camera: {fileID: 210400105}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1180,8 +1148,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048606333}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 174.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 108.4}
+  m_LocalScale: {x: 0.37107, y: 0.37107, z: 0.37107}
   m_Children:
   - {fileID: 2119304238}
   - {fileID: 862836882}
@@ -1190,7 +1158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 96.516655, y: 79.95474}
+  m_AnchoredPosition: {x: 96.516655, y: 84.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2119304237
