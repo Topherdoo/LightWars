@@ -14,8 +14,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.InputSystem.dll:
-    - UnityEngine.InputSystem.InputActionAsset
-    - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
@@ -48,6 +46,8 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusSettings
     Unity.XR.OpenXR.Editor.dll:
     - UnityEditor.XR.OpenXR.OpenXRPackageSettings
     Unity.XR.OpenXR.Features.ConformanceAutomation.dll:
@@ -68,6 +68,8 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.OpenXR.Features.Interactions.ValveIndexControllerProfile
     - UnityEngine.XR.OpenXR.OpenXRLoader
     - UnityEngine.XR.OpenXR.OpenXRSettings
+    Unity.XR.WindowsMixedReality.Editor.dll:
+    - UnityEditor.XR.WindowsMR.WindowsMRPackageSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -125,45 +127,45 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1700}
+      Script: {instanceID: 1704}
     - Class: 114
-      Script: {instanceID: 1772}
+      Script: {instanceID: 1776}
     - Class: 114
-      Script: {instanceID: 1804}
+      Script: {instanceID: 1808}
     - Class: 114
-      Script: {instanceID: 2138}
+      Script: {instanceID: 2142}
     - Class: 114
-      Script: {instanceID: 2154}
+      Script: {instanceID: 2158}
     - Class: 114
-      Script: {instanceID: 2760}
+      Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 3064}
-    - Class: 114
-      Script: {instanceID: 3098}
+      Script: {instanceID: 3068}
     - Class: 114
       Script: {instanceID: 3102}
     - Class: 114
-      Script: {instanceID: 3272}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 3344}
+      Script: {instanceID: 3276}
     - Class: 114
-      Script: {instanceID: 3548}
+      Script: {instanceID: 3348}
     - Class: 114
-      Script: {instanceID: 3726}
+      Script: {instanceID: 3552}
     - Class: 114
-      Script: {instanceID: 4738}
+      Script: {instanceID: 3730}
     - Class: 114
-      Script: {instanceID: 4976}
+      Script: {instanceID: 4742}
     - Class: 114
-      Script: {instanceID: 5264}
+      Script: {instanceID: 4980}
     - Class: 114
-      Script: {instanceID: 5722}
+      Script: {instanceID: 5268}
     - Class: 114
-      Script: {instanceID: 6290}
+      Script: {instanceID: 5726}
     - Class: 114
-      Script: {instanceID: 6698}
+      Script: {instanceID: 6294}
+    - Class: 114
+      Script: {instanceID: 6702}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -232,57 +234,57 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1698}
+      Script: {instanceID: 1702}
     - Class: 114
-      Script: {instanceID: 1700}
+      Script: {instanceID: 1704}
     - Class: 114
-      Script: {instanceID: 1772}
+      Script: {instanceID: 1776}
     - Class: 114
-      Script: {instanceID: 1854}
+      Script: {instanceID: 1858}
     - Class: 114
-      Script: {instanceID: 2138}
+      Script: {instanceID: 2142}
     - Class: 114
-      Script: {instanceID: 2154}
+      Script: {instanceID: 2158}
     - Class: 114
-      Script: {instanceID: 2576}
+      Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 2760}
+      Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 2982}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 2984}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3026}
+      Script: {instanceID: 3030}
     - Class: 114
-      Script: {instanceID: 3064}
-    - Class: 114
-      Script: {instanceID: 3098}
+      Script: {instanceID: 3068}
     - Class: 114
       Script: {instanceID: 3102}
     - Class: 114
-      Script: {instanceID: 3272}
+      Script: {instanceID: 3106}
     - Class: 114
-      Script: {instanceID: 3344}
+      Script: {instanceID: 3276}
     - Class: 114
-      Script: {instanceID: 3548}
+      Script: {instanceID: 3348}
     - Class: 114
-      Script: {instanceID: 3726}
+      Script: {instanceID: 3552}
     - Class: 114
-      Script: {instanceID: 4738}
+      Script: {instanceID: 3730}
     - Class: 114
-      Script: {instanceID: 4976}
+      Script: {instanceID: 4742}
     - Class: 114
-      Script: {instanceID: 5264}
+      Script: {instanceID: 4980}
     - Class: 114
-      Script: {instanceID: 5692}
+      Script: {instanceID: 5268}
     - Class: 114
-      Script: {instanceID: 5722}
+      Script: {instanceID: 5696}
     - Class: 114
-      Script: {instanceID: 6092}
+      Script: {instanceID: 5726}
     - Class: 114
-      Script: {instanceID: 6290}
+      Script: {instanceID: 6096}
     - Class: 114
-      Script: {instanceID: 6698}
+      Script: {instanceID: 6294}
+    - Class: 114
+      Script: {instanceID: 6702}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1494,4 +1496,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/tophe/OneDrive/Documents/GitHub/LightWars/Light_Wars_/Light_Wars_.exe
+  playerPath: C:/Users/tophe/OneDrive/Desktop/Personal Unity Game/Light_Wars_.exe
